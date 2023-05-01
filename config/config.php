@@ -6,7 +6,7 @@ class config
 	public static $ctr=1;
 	public function __construct()
 	{
-		$this->link = mysqli_connect("localhost", "u537471222_cwe", "Cwe@2022", "u537471222_cwedb");
+		$this->link = mysqli_connect("localhost", "root", "", "");
      
 		// Check connection
 		if($this->link === false)
